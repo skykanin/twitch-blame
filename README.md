@@ -12,7 +12,7 @@ the package using `(require 'twitch-blame-mode)`. Then set the appropriate
 Doom users can install the package directly from the repository using the `package!` macro along with a `:recipe`
 ```lisp
 (package! twitch-blame-mode
-  (:host github :repo "skykanin/twitch-blame"))
+  :recipe (:host github :repo "skykanin/twitch-blame"))
 ```
 
 ## Configuration
