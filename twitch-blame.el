@@ -209,5 +209,5 @@ Default value set to '(\"irc.chat.twitch.tv\" . 6667)"
   (connect-to-irc)
   (add-hook 'after-change-functions #'add-blame-comment))
 
-(provide 'twitch-blame-mode)
+(provide 'twitch-blame)
 ;;; twitch-blame.el ends here
