@@ -1,6 +1,7 @@
 # Twitch Blame
 Experience the torture of backseat programming by getting chatters coding opinions directly in your emacs editor
-with a fringe indicator in the relavant line and the chat comments on that line.
+with a fringe indicator on the relavant line and chat comments in the minibuffer.
+![options](https://i.imgur.com/8LqSVuh.png)
 
 ## Installation
 ### Vanilla
