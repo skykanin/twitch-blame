@@ -172,6 +172,7 @@ Default value set to '(\"irc.chat.twitch.tv\" . 6667)"
     (let ((buffer (erc :server (car twitch-irc-address) :port (cdr twitch-irc-address)
                     :nick (downcase twitch-nick)
                     :password (format "oauth:%s" twitch-token))))
+      ;; TODO: See https://github.com/skykanin/twitch-blame/issues/1
       (with-current-buffer buffer
        (run-at-time 3 nil #'erc-join-channel twitch-channel-name)))))
 
